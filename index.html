@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Dountio Joseph - Développeur Software Engineer passionné, spécialisé en développement web moderne">
+    <meta property="og:title" content="Joseph Dountio | Software Engineer">
+    <meta property="og:description" content="Développeur Full Stack passionné par la création d'expériences web innovantes">
+    <title>Joseph Dountio | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="./Style.css">
+    <!--Favicon section-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">    
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="spinner"></div>
+            <p>Chargement...</p>
+        </div>
+    </div>
+
+    <div class="main-container">
+
+        <!-- Sidebar -->
+        <aside class="aside" id="sidebar">
+            <div class="logo">
+                <a href="#home"><span>J</span>oseph</a>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Accueil</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> À propos</a></li>
+                <li><a href="#services"><i class="fa fa-cogs"></i> Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#github"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="#languages"><i class="fa fa-code"></i> Langages</a></li>
+                <li><a href="#testimonials"><i class="fa fa-comments"></i> Témoignages</a></li>
+                <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+            </ul>
+        </aside>
+
+        <!-- Hamburger Menu -->
+        <div class="nav-toggler" id="navToggler">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            
+            <!-- Home Section -->
+            <section class="section home" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">
+                                Bonjour, je suis <span class="name">Dountio Joseph</span>
+                            </h3>
+                            <h3 class="my-profession">
+                                Je suis un <span class="typing">Software Engineer</span>
+                            </h3>
+                            <p>
+                                Développeur passionné spécialisé dans la création d'applications web modernes et performantes. 
+                                Je transforme des idées innovantes en solutions digitales élégantes qui répondent aux besoins réels des utilisateurs.
+                            </p>
+                            <a href="#contact" class="btn">Me contacter</a>
+                            <a href="./Beige bleu foncé Épuré CV vendeuse CV.pdf" download="CV Joseph Yedidya" class="btn" style="background: transparent; color: var(--skin-color); border: 2px solid var(--skin-color);">Télécharger CV</a>
+                            
+                            <div class="social-links">
+                                <a href="https://github.com/dountiojoseph" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://linkedin.com/in/dountiojoseph" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/dountiojoseph" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="mailto:dountioj14@gmail.com"><i class="fa fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="home-img">
+                            <img src="./Ma photo de profil.png" alt="Dountio Joseph - Software Engineer"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="section about" id="about">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>À Propos de Moi</h2>
+                    </div>
+                    
+                    <div class="about-text">
+                        <h3>Je suis Dountio Joseph, <span>Software Engineer</span></h3>
+                        <p>
+                            Étudiant en informatique de 20 ans, passionné par le développement web et les nouvelles technologies. 
+                            Je me spécialise dans la création d'interfaces utilisateur intuitives et de solutions back-end robustes. 
+                            Mon objectif est de créer des applications qui ont un impact positif et qui facilitent la vie des utilisateurs.
+                        </p>
+                        <p>
+                            Toujours curieux d'apprendre, je me tiens constamment à jour avec les dernières tendances et technologies 
+                            du développement web. J'aime relever des défis techniques et collaborer sur des projets innovants.
+                        </p>
+                    </div>
+
+                    <div class="personal-info">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <p><strong>Date de naissance:</strong> <span>21 Avril 2005</span></p>
+                            </div>
+                            <div class="info-item">
+                                <p><strong>Âge:</strong> <span>20 ans</span></p>
+                            </div>
+                            <div class="info-item">
+                                <p><strong>Email:</strong> <span>dountioj14@gmail.com</span></p>
+                            </div>
+                            <div class="info-item">
+                                <p><strong>Téléphone:</strong> <span>+237 691129881</span></p>
+                            </div>
+                            <div class="info-item">
+                                <p><strong>Ville:</strong> <span>Douala, Cameroun</span></p>
+                            </div>
+                            <div class="info-item">
+                                <p><strong>Diplôme:</strong> <span>Licence en Informatique</span></p>
+                            </div>
+                            <div class="info-item">
+                                <p><strong>Freelance:</strong> <span>Disponible</span></p>
+                            </div>
+                            <div class="info-item">
+                                <p><strong>Langues:</strong> <span>Français, Anglais</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h3 style="margin-bottom: 30px; font-size: 24px;">Compétences Techniques</h3>
+                        <div class="skill-item">
+                            <h5>
+                                <i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i>
+                                HTML/CSS
+                                <i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                            </h5>
+                            <div class="progress">
+                                <div class="progress-in" data-width="95"></div>
+                                <div class="skill-percent">95%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">                       
+                            <h5>JavaScript
+                                <i class="fab fa-js-square skill-icon" style="color: #f7df1e;"></i></h5>
+                            <div class="progress">
+                                <div class="progress-in" data-width="35"></div>
+                                <div class="skill-percent">35%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h5>React.js
+                                <i class="fab fa-react skill-icon" style="color: #61DAFB;"></i>
+                            </h5>
+                            <div class="progress">
+                                <div class="progress-in" data-width="30"></div>
+                                <div class="skill-percent">30%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h5>
+                                <i class="fab fa-php skill-icon" style="color: #777BB4;"></i>
+                                PHP/MySQL
+                                <i class="fas fa-database skill-icon" style="color: #00758F;"></i>
+                            </h5>
+                            <div class="progress">
+                                <div class="progress-in" data-width="45"></div>
+                                <div class="skill-percent">45%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h5>
+                                <i class="fab fa-node-js skill-icon" style="color: #339933;"></i>
+                                Node.js
+                            </h5>
+                            <div class="progress">
+                                <div class="progress-in" data-width="30"></div>
+                                <div class="skill-percent">30%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <h5>
+                                <i class="fab fa-swift skill-icon" style="color: #FA7343;"></i>
+                                Swift/SwiftUI</h5>
+                            <div class="progress">
+                                <div class="progress-in" data-width="30"></div>
+                                <div class="skill-percent">0%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-section">
+                        <div class="timeline-box">
+                            <h3><i class="fa fa-graduation-cap"></i> Formation</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-date">
+                                        <i class="fa fa-calendar"></i> 2023 - Présent
+                                    </div>
+                                    <h4 class="timeline-title">Licence en Informatique</h4>
+                                    <p class="timeline-text">
+                                        Actuellement en formation universitaire, spécialisation en développement web 
+                                        et génie logiciel. Focus sur les technologies modernes et les méthodologies agiles.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">
+                                        <i class="fa fa-calendar"></i> 2022 - 2023
+                                    </div>
+                                    <h4 class="timeline-title">Certification Développement Web</h4>
+                                    <p class="timeline-text">
+                                        Formation intensive en développement full-stack. Maîtrise de HTML, CSS, JavaScript, 
+                                        React, Node.js et bases de données.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">
+                                        <i class="fa fa-calendar"></i> 2020 - 2023
+                                    </div>
+                                    <h4 class="timeline-title">GCE A Level</h4>
+                                    <p class="timeline-text">
+                                        Diplôme obtenu avec mention. Passion précoce pour l'informatique et 
+                                        la programmation développée durant cette période.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-box">
+                            <h3><i class="fa fa-briefcase"></i> Expérience</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-date">
+                                        <i class="fa fa-calendar"></i> 2024 - Présent
+                                    </div>
+                                    <h4 class="timeline-title">Développeur Freelance</h4>
+                                    <p class="timeline-text">
+                                        Création de sites web et applications pour divers clients. Gestion complète 
+                                        des projets de la conception au déploiement.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">
+                                        <i class="fa fa-calendar"></i> Été 2024
+                                    </div>
+                                    <h4 class="timeline-title">Stage Développeur Web</h4>
+                                    <p class="timeline-text">
+                                        Participation au développement d'une plateforme e-commerce. Travail en équipe 
+                                        et apprentissage des bonnes pratiques du développement professionnel.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-date">
+                                        <i class="fa fa-calendar"></i> 2023 - 2024
+                                    </div>
+                                    <h4 class="timeline-title">Projets Personnels</h4>
+                                    <p class="timeline-text">
+                                        Développement de plusieurs applications web pour consolider mes compétences. 
+                                        Portfolio, sites vitrines, et applications interactives.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="section" id="services">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Mes Services</h2>
+                    </div>
+                     
+                    <div class="service-grid">
+                        <div class="service-item">
+                            <div class="icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <h4>Développement Web</h4>
+                            <p>
+                                Création de sites web modernes, responsives et performants avec les dernières 
+                                technologies (React, Node.js, PHP).
+                            </p>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="icon">
+                                <i class="fa fa-mobile-alt"></i>
+                            </div>
+                            <h4>Design Responsive</h4>
+                            <p>
+                                Conception d'interfaces utilisateur adaptées à tous les appareils, 
+                                garantissant une expérience optimale sur mobile, tablette et desktop.
+                            </p>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="icon">
+                                <i class="fa fa-paint-brush"></i>
+                            </div>
+                            <h4>UI/UX Design</h4>
+                            <p>
+                                Création d'interfaces intuitives et esthétiques centrées sur l'expérience 
+                                utilisateur pour maximiser l'engagement.
+                            </p>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h4>E-commerce</h4>
+                            <p>
+                                Développement de boutiques en ligne complètes avec systèmes de paiement 
+                                sécurisés et gestion des commandes.
+                            </p>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="icon">
+                                <i class="fa fa-database"></i>
+                            </div>
+                            <h4>Backend Development</h4>
+                            <p>
+                                Création d'APIs robustes et de bases de données optimisées pour 
+                                des applications performantes et sécurisées.
+                            </p>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <h4>Maintenance & Support</h4>
+                            <p>
+                                Support technique continu, mises à jour régulières et optimisation 
+                                de vos applications existantes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section class="section" id="portfolio">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Mon Portfolio</h2>
+                    </div>
+                    
+                    <p style="text-align: center; color: var(--text-black-700); margin-bottom: 50px; font-size: 18px;">
+                        Découvrez quelques-uns de mes projets récents
+                    </p>
+
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                            <img src="./Gestion des finances.png" alt="Application de Gestion des finances" />
+                            <div class="portfolio-overlay">
+                                <h4>Application de Gestion des finances</h4>
+                                <p>HTML • CSS • JavaScript</p>
+                                <a href="https://josephyedidya.github.io/FinanceTracker/" class="btn">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <img src="./Time.png" alt="Emploi de temps étudiant" />
+                            <div class="portfolio-overlay">
+                                <h4>Emploi de temps étudiant</h4>
+                                <p>HTML • CSS • JS</p>
+                                <a href="https://josephyedidya.github.io/Time-Table/" class="btn">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <img src="./Bijoux.png" alt="Platforme de Bijoux" />
+                            <div class="portfolio-overlay">
+                                <h4>Plateforme de vente de Bijoux</h4>
+                                <p>HTML • CSS • JS</p>
+                                <a href="https://josephyedidya.github.io/Jewellery-Website/" class="btn">Voir le projet</a>
+                            </div>
+                        </div> 
+
+                       
+                        <div class="portfolio-item">
+                            <img src="./application de gestion.png" alt="Application de gestion des abonnements" />
+                            <div class="portfolio-overlay">
+                                <h4>Application de Gestion des Abonnements</h4>
+                                <p>HTML • CSS • JavaScript • PHP</p>
+                                <a href="./Projets/Application de gestion des abonnements/index3.html" class="btn">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <img src="./application de restauration/Screenshot 2025-10-30 at 09.59.37.png" alt="Site de restaurant" />
+                            <div class="portfolio-overlay">
+                                <h4>Site Restaurant</h4>
+                                <p>HTML • CSS • JavaScript</p>
+                                <a href="./Projets/application de restauration/index.html" class="btn">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <img src="./Bijoux.png" alt="Plateforme de Bijoux" />
+                            <div class="portfolio-overlay">
+                                <h4>Plateforme de Vente de Bijoux</h4>
+                                <p>HTML • CSS • JavaScript</p>
+                                <a href="./Projets/Bijouterie/index.html" class="btn">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GitHub Section -->
+            <section class="section" id="github">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Mon GitHub</h2>
+                    </div>
+                    
+                    <p style="text-align: center; color: var(--text-black-700); margin-bottom: 50px; font-size: 18px;">
+                        Découvrez mes projets open source et contributions
+                    </p>
+
+                    <div class="github-stats" style="text-align: center; margin-bottom: 50px;">
+                        <img src="https://github-readme-stats.vercel.app/api?username=dountiojoseph&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" style="max-width: 100%; margin: 10px;">
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dountiojoseph&layout=compact&theme=radical&hide_border=true" alt="Top Languages" style="max-width: 100%; margin: 10px;">
+                    </div>
+
+                    <div class="github-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                        <div class="github-item" style="background: var(--bg-black-100); padding: 30px; border-radius: 10px; box-shadow: var(--shadow-light);">
+                            <h4 style="color: var(--text-black-900); margin-bottom: 15px;"><i class="fab fa-github"></i> FinanceTracker</h4>
+                            <p style="color: var(--text-black-700); font-size: 14px; margin-bottom: 20px;">Application de gestion des finances personnelles avec suivi des dépenses et revenus.</p>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">HTML</span>
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">CSS</span>
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">JavaScript</span>
+                            </div>
+                            <a href="https://github.com/dountiojoseph/FinanceTracker" target="_blank" class="btn" style="margin-top: 20px;">Voir sur GitHub</a>
+                        </div>
+
+                        <div class="github-item" style="background: var(--bg-black-100); padding: 30px; border-radius: 10px; box-shadow: var(--shadow-light);">
+                            <h4 style="color: var(--text-black-900); margin-bottom: 15px;"><i class="fab fa-github"></i> Time-Table</h4>
+                            <p style="color: var(--text-black-700); font-size: 14px; margin-bottom: 20px;">Application de gestion d'emploi du temps pour étudiants avec interface intuitive.</p>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">HTML</span>
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">CSS</span>
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">JS</span>
+                            </div>
+                            <a href="https://github.com/dountiojoseph/Time-Table" target="_blank" class="btn" style="margin-top: 20px;">Voir sur GitHub</a>
+                        </div>
+
+                        <div class="github-item" style="background: var(--bg-black-100); padding: 30px; border-radius: 10px; box-shadow: var(--shadow-light);">
+                            <h4 style="color: var(--text-black-900); margin-bottom: 15px;"><i class="fab fa-github"></i> Jewellery-Website</h4>
+                            <p style="color: var(--text-black-700); font-size: 14px; margin-bottom: 20px;">Site e-commerce pour une bijouterie avec catalogue de produits elegant.</p>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">HTML</span>
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">CSS</span>
+                                <span style="background: var(--skin-color); color: white; padding: 5px 10px; border-radius: 15px; font-size: 12px;">JavaScript</span>
+                            </div>
+                            <a href="https://github.com/dountiojoseph/Jewellery-Website" target="_blank" class="btn" style="margin-top: 20px;">Voir sur GitHub</a>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 50px;">
+                        <a href="https://github.com/dountiojoseph" target="_blank" class="btn">Voir tous mes projets</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Languages Section -->
+            <section class="section" id="languages">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Langages en Apprentissage</h2>
+                    </div>
+                    
+                    <p style="text-align: center; color: var(--text-black-700); margin-bottom: 50px; font-size: 18px;">
+                        Voici les langages et technologies que je suis en train d'apprendre
+                    </p>
+
+                    <div class="languages-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px;">
+                        <div class="language-item" style="background: var(--bg-black-100); padding: 30px; border-radius: 10px; text-align: center; box-shadow: var(--shadow-light); transition: var(--transition-fast);">
+                            <i class="fab fa-python" style="font-size: 50px; color: #3776AB; margin-bottom: 20px;"></i>
+                            <h4 style="color: var(--text-black-900); margin-bottom: 10px;">Python</h4>
+                            <p style="color: var(--text-black-700); font-size: 14px;">En cours d'apprentissage</p>
+                            <div class="progress" style="margin-top: 15px;">
+                                <div class="progress-in" data-width="15" style="background: #3776AB;"></div>
+                            </div>
+                            <span class="skill-percent">15%</span>
+                        </div>
+
+                        <div class="language-item" style="background: var(--bg-black-100); padding: 30px; border-radius: 10px; text-align: center; box-shadow: var(--shadow-light); transition: var(--transition-fast);">
+                            <i class="fab fa-java" style="font-size: 50px; color: #007396; margin-bottom: 20px;"></i>
+                            <h4 style="color: var(--text-black-900); margin-bottom: 10px;">Java</h4>
+                            <p style="color: var(--text-black-700); font-size: 14px;">En cours d'apprentissage</p>
+                            <div class="progress" style="margin-top: 15px;">
+                                <div class="progress-in" data-width="10" style="background: #007396;"></div>
+                            </div>
+                            <span class="skill-percent">10%</span>
+                        </div>
+
+                        <div class="language-item" style="background: var(--bg-black-100); padding: 30px; border-radius: 10px; text-align: center; box-shadow: var(--shadow-light); transition: var(--transition-fast);">
+                            <i class="fas fa-database" style="font-size: 50px; color: #4479A1; margin-bottom: 20px;"></i>
+                            <h4 style="color: var(--text-black-900); margin-bottom: 10px;">PostgreSQL</h4>
+                            <p style="color: var(--text-black-700); font-size: 14px;">En cours d'apprentissage</p>
+                            <div class="progress" style="margin-top: 15px;">
+                                <div class="progress-in" data-width="20" style="background: #4479A1;"></div>
+                            </div>
+                            <span class="skill-percent">20%</span>
+                        </div>
+
+                        <div class="language-item" style="background: var(--bg-black-100); padding: 30px; border-radius: 10px; text-align: center; box-shadow: var(--shadow-light); transition: var(--transition-fast);">
+                            <i class="fab fa-docker" style="font-size: 50px; color: #2496ED; margin-bottom: 20px;"></i>
+                            <h4 style="color: var(--text-black-900); margin-bottom: 10px;">Docker</h4>
+                            <p style="color: var(--text-black-700); font-size: 14px;">En cours d'apprentissage</p>
+                            <div class="progress" style="margin-top: 15px;">
+                                <div class="progress-in" data-width="5" style="background: #2496ED;"></div>
+                            </div>
+                            <span class="skill-percent">5%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="section" id="testimonials">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Témoignages</h2>
+                    </div>
+                    
+                    <p style="text-align: center; color: var(--text-black-700); margin-bottom: 50px; font-size: 18px;">
+                        Ce que disent les personnes avec lesquelles j'ai travaillé
+                    </p>
+
+                    <div class="testimonials-grid">
+                        <div class="testimonial-item" data-aos="fade-up">
+                            <div class="testimonial-content">
+                                <p>
+                                    "Joseph est un développeur talented et passionné. Il a rapidement compris nos besoins et a livré un projet de qualité dans les délais impartis. Je recommande vivement ses services."
+                                </p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div style="text-align: left;">
+                                    <h5>Marie Dupont</h5>
+                                    <span>Cliente - Site E-commerce</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="testimonial-content">
+                                <p>
+                                    "Travail exceptionnel ! Joseph fait preuve d'une grande rigueur professionnelle et d'une excellent communication tout au long du projet. Un plaisir de collaborer avec lui."
+                                </p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div style="text-align: left;">
+                                    <h5>Thomas Martin</h5>
+                                    <span>Mentor Technique</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="testimonial-content">
+                                <p>
+                                    "Joseph a su transformer nos idées en une application web moderne et fonctionnelle. Son expertise technique et sa créativité ont fait la différence."
+                                </p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div style="text-align: left;">
+                                    <h5>Pierre Nguyen</h5>
+                                    <span>Co-Founder, Startup Locale</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section" id="contact">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Contactez-Moi</h2>
+                    </div>
+
+                    <p style="text-align: center; color: var(--skin-color); font-size: 24px; margin-bottom: 15px;">
+                        Des Questions ?
+                    </p>
+                    <p style="text-align: center; color: var(--text-black-700); margin-bottom: 50px; font-size: 16px;">
+                        JE SUIS À VOTRE SERVICE
+                    </p>
+
+                    <div class="contact-info-grid">
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Téléphone</h4>
+                            <p>+237 6 91 12 98 81</p>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Localisation</h4>
+                            <p>Douala, Cameroun</p>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>dountioj14@gmail.com</p>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fab fa-github"></i></div>
+                            <h4>GitHub</h4>
+                            <p>@dountiojoseph</p>
+                        </div>
+                    </div>
+
+                    <p style="text-align: center; color: var(--skin-color); font-size: 22px; margin: 60px 0 15px;">
+                        ENVOYEZ-MOI UN MESSAGE
+                    </p>
+                    <p style="text-align: center; color: var(--text-black-700); margin-bottom: 40px;">
+                        Je réponds rapidement aux messages
+                    </p>
+
+                    <form action="https://formsubmit.co/dountioj14@gmail.com" method="POST" class="contact-form">
+                        <!-- empêche le spam -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="Nouveau message depuis ton portfolio !">
+                      
+                        <div class="form-row">
+                          <input type="text" name="Nom" class="form-control" placeholder="Votre Nom" required>
+                          <input type="email" name="Email" class="form-control" placeholder="Votre Email" required>
+                        </div>
+                        <div class="form-row">
+                          <input type="text" name="Sujet" class="form-control" placeholder="Sujet" required>
+                        </div>
+                        <textarea name="Message" class="form-control" placeholder="Votre Message" required></textarea>
+                      
+                        <div style="text-align: center; margin-top: 30px;">
+                          <button type="submit" class="btn">Envoyer le Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer style="background: var(--bg-black-100); padding: 40px 0; text-align: center; margin-top: 60px;">
+                <div class="container">
+                    <p style="color: var(--text-black-700); margin-bottom: 20px;">
+                        © 2025 Dountio Joseph. Tous droits réservés.
+                    </p>
+                    <div class="social-links" style="justify-content: center;">
+                        <a href="https://github.com/dountiojoseph" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/dountiojoseph" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/dountiojoseph" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:dountioj14@gmail.com"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Style Switcher -->
+        <div class="style-switcher" id="styleSwitcher">
+            <div class="style-switcher-toggler">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="day-night" id="dayNight">
+                <i class="fas fa-moon"></i>
+            </div>
+            <h4 style="margin-bottom: 15px; color: var(--text-black-700);">Couleurs du Thème</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('#ec1839')"></span>
+                <span class="color-2" onclick="setActiveStyle('#fa5b0f')"></span>
+                <span class="color-3" onclick="setActiveStyle('#37b182')"></span>
+                <span class="color-4" onclick="setActiveStyle('#1854b4')"></span>
+                <span class="color-5" onclick="setActiveStyle('#f021b2')"></span>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <div class="back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </div>
+
+   
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./Script.js"></script>
+</body>
+</html>
+
