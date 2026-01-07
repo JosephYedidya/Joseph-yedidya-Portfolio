@@ -26,6 +26,7 @@ const sidebar = document.getElementById('sidebar');
 
 navToggler.addEventListener('click', () => {
     sidebar.classList.toggle('open');
+    navToggler.classList.toggle('active');
 });
 
 // Close sidebar when clicking on a link (mobile)
