@@ -34,6 +34,7 @@ navLinks.forEach(link => {
     link.addEventListener('click', () => {
         if (window.innerWidth <= 991) {
             sidebar.classList.remove('open');
+            navToggler.classList.remove('active');
         }
     });
 });
