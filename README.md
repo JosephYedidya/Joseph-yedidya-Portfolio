@@ -6,8 +6,8 @@
 
 Portfolio personnel – progression, projets et vision long terme.
 
-🔗 **Site** : https://TON_PSEUDO.github.io  
-📦 **Code** : https://github.com/TON_PSEUDO/TON_PSEUDO.github.io
+🔗 **Site** : https://josephyedidya.github.io/Joseph-yedidya-Portfolio/.io  
+📦 **Code** : https://github.com/JosephYedidya/TON_PSEUDO.github.io
 
 </div>
 
