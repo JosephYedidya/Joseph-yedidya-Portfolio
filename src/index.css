@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 98%;
+    --foreground: 250 30% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 250 30% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 250 30% 18%;
+
+    --primary: 351 85% 51%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 250 20% 96%;
+    --secondary-foreground: 250 30% 18%;
+
+    --muted: 240 10% 94%;
+    --muted-foreground: 250 15% 40%;
+
+    --accent: 351 85% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 250 15% 90%;
+    --input: 250 15% 90%;
+    --ring: 351 85% 51%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 99%;
+    --sidebar-foreground: 250 30% 18%;
+    --sidebar-primary: 351 85% 51%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 351 85% 95%;
+    --sidebar-accent-foreground: 351 85% 40%;
+    --sidebar-border: 250 15% 92%;
+    --sidebar-ring: 351 85% 51%;
+
+    /* Custom portfolio tokens */
+    --gradient-hero: linear-gradient(135deg, hsl(351, 85%, 51%) 0%, hsl(351, 85%, 40%) 100%);
+    --shadow-elegant: 0 10px 40px -10px hsl(351 85% 51% / 0.25);
+    --shadow-card: 0 4px 20px hsl(250 30% 18% / 0.08);
+    --shadow-card-hover: 0 8px 30px hsl(250 30% 18% / 0.12);
+  }
+
+  .dark {
+    --background: 250 30% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 250 25% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 250 25% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 351 85% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 250 20% 18%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 250 20% 18%;
+    --muted-foreground: 250 10% 65%;
+
+    --accent: 351 85% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 250 20% 20%;
+    --input: 250 20% 20%;
+    --ring: 351 85% 55%;
+
+    --sidebar-background: 250 25% 10%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 351 85% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 250 20% 16%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 250 20% 16%;
+    --sidebar-ring: 351 85% 55%;
+
+    --shadow-elegant: 0 10px 40px -10px hsl(351 85% 55% / 0.3);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.3);
+    --shadow-card-hover: 0 8px 30px hsl(0 0% 0% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-script {
+    font-family: "Clicker Script", cursive;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-hero);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-card-hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .glass {
+    @apply bg-card/80 backdrop-blur-lg;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.8);
+}
