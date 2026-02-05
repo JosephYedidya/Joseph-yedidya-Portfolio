@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# 🚀 Portfolio – Joseph Dountio
 
-## Project info
+Bienvenue sur mon portfolio de développeur.
+Je suis un développeur en formation avec pour objectif de devenir **développeur full-stack web et mobile iOS**, capable de concevoir des applications modernes, performantes et centrées sur l’utilisateur.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 👨🏾‍💻 À propos de moi
 
-## How can I edit this code?
+Étudiant en informatique, passionné par la technologie, le design et le développement d’applications.
+Je me spécialise progressivement dans :
 
-There are several ways of editing your application.
+* Le développement **web full-stack**
+* Le développement **mobile iOS**
+* Les technologies modernes orientées performance et expérience utilisateur
 
-**Use Lovable**
+Mon objectif est de devenir un **software engineer complet**, capable de transformer une idée en produit fonctionnel et élégant.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies utilisées
 
-**Use your preferred IDE**
+Selon les projets, j’utilise :
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Frontend** : HTML, CSS, JavaScript, React, Next.js
+* **Backend** : Node.js
+* **Outils** : Git, GitHub, VS Code
+* **Mobile (objectif)** : Swift, SwiftUI, iOS
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Projets
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Voici quelques projets présents dans ce portfolio :
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Applications web interactives
+* Interfaces modernes et responsives
+* Projets d’apprentissage et d’expérimentation
 
-# Step 3: Install the necessary dependencies.
-npm i
+Chaque projet inclut :
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+* Une description
+* Les technologies utilisées
+* Un lien vers le code ou la démo
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎯 Objectif professionnel
 
-**Use GitHub Codespaces**
+Mon ambition est de devenir :
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+> **Développeur full-stack web et mobile iOS**
 
-## What technologies are used for this project?
+Je cherche à :
 
-This project is built with:
+* Améliorer mes compétences techniques
+* Construire des projets concrets
+* Collaborer sur des projets open source
+* Décrocher des opportunités professionnelles dans la tech
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📫 Me contacter
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+* GitHub : [ton lien GitHub]
+* Email : [ton email]
+* LinkedIn : [ton profil LinkedIn]
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🌐 Voir le portfolio en ligne
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+👉 [Lien vers le site du portfolio]
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+⭐ N’hésite pas à explorer les projets et à me contacter pour toute opportunité ou collaboration.
