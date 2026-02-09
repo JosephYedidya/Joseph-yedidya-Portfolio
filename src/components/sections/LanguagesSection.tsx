@@ -33,16 +33,16 @@ const LanguagesSection = () => {
               whileHover={{ y: -5 }}
               className="p-8 bg-card rounded-2xl shadow-card hover:shadow-card-hover transition-all text-center"
             >
-              {/* Icon placeholder with color */}
+              {/* Icon with color */}
               <motion.div
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 + 0.2, type: "spring" }}
-                className="w-20 h-20 mx-auto mb-5 rounded-full flex items-center justify-center text-3xl font-bold text-white"
+                className="w-20 h-20 mx-auto mb-5 rounded-full flex items-center justify-center text-white"
                 style={{ backgroundColor: lang.color }}
               >
-                {lang.name.charAt(0)}
+                <lang.icon className="w-12 h-12" />
               </motion.div>
 
               <h4 className="text-xl font-semibold mb-2">{lang.name}</h4>

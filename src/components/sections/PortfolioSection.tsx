@@ -37,13 +37,17 @@ const PortfolioSection = () => {
             >
               {/* Project Image */}
               <div className="aspect-video bg-gradient-to-br from-primary/20 to-primary/40 overflow-hidden">
-                <motion.div
+                <motion.img
+                  src={project.image}
+                  alt={project.title}
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.4 }}
-                  className="w-full h-full flex items-center justify-center text-4xl font-script text-primary"
-                >
-                  {project.title.charAt(0)}
-                </motion.div>
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    // Fallback to placeholder if image fails to load
+                    e.currentTarget.src = "/placeholder.svg";
+                  }}
+                />
               </div>
 
               {/* Overlay */}

@@ -122,9 +122,11 @@ const HeroSection = () => {
                 style={{ margin: "-12px" }}
               />
               <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-8 border-card shadow-elegant">
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-primary/40 flex items-center justify-center text-6xl font-script text-primary">
-                  JD
-                </div>
+                <img
+                  src={`${import.meta.env.PROD ? '/Joseph-yedidya-Portfolio' : ''}/Images/Ma photo de profil.png`}
+                  alt="Joseph Dountio - Photo de profil"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>

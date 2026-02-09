@@ -1,11 +1,22 @@
-import { 
-  LaptopMinimal, 
-  Smartphone, 
-  Paintbrush, 
-  ShoppingCart, 
-  Database, 
-  Settings 
+import {
+  LaptopMinimal,
+  Smartphone,
+  Paintbrush,
+  ShoppingCart,
+  Database,
+  Settings,
+  Code,
+  Palette,
+  Atom,
+  Server,
+  GitBranch,
+  Container,
+  Cloud,
+  Network,
+  Globe,
+  Zap
 } from "lucide-react";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNodedotjs, SiNextdotjs, SiPython, SiOpenjdk } from "react-icons/si";
 
 export const personalInfo = {
   name: "Dountio Joseph",
@@ -30,12 +41,12 @@ export const aboutText = {
 };
 
 export const skills = [
-  { name: "HTML/CSS", percentage: 95, color: "#E34F26" },
+  { name: "HTML/CSS", percentage: 95, color: "#E34F26", },
   { name: "JavaScript", percentage: 35, color: "#f7df1e" },
   { name: "React.js", percentage: 30, color: "#61DAFB" },
   { name: "PHP/MySQL", percentage: 45, color: "#777BB4" },
   { name: "Node.js", percentage: 30, color: "#339933" },
-  { name: "Swift/SwiftUI", percentage: 0, color: "#FA7343" },
+  { name: "Swift/SwiftUI", percentage: 5, color: "#FA7343" },
 ];
 
 export const education = [
@@ -112,37 +123,37 @@ export const projects = [
     title: "Application de Gestion des finances",
     tech: "HTML • CSS • JavaScript",
     link: "https://josephyedidya.github.io/FinanceTracker/",
-    image: "/placeholder.svg",
+    image: `${import.meta.env.PROD ? '/Joseph-yedidya-Portfolio' : ''}/Images/Gestion des finances.png`,
   },
   {
     title: "Emploi de temps étudiant",
     tech: "HTML • CSS • JS",
     link: "https://josephyedidya.github.io/Time-Table/",
-    image: "/placeholder.svg",
+    image: `${import.meta.env.PROD ? '/Joseph-yedidya-Portfolio' : ''}/Images/Time.png`,
   },
   {
     title: "Plateforme de e-commerce",
     tech: "HTML • CSS • JS",
     link: "https://josephyedidya.github.io/Hardware-e-commerce/",
-    image: "/placeholder.svg",
+    image: `${import.meta.env.PROD ? '/Joseph-yedidya-Portfolio' : ''}/Images/Hardware.png`,
   },
   {
     title: "Application de Gestion des Abonnements",
     tech: "HTML • CSS • JavaScript • PHP",
     link: "#",
-    image: "/placeholder.svg",
+    image: `${import.meta.env.PROD ? '/Joseph-yedidya-Portfolio' : ''}/Images/application de gestion.png`,
   },
   {
     title: "Site Restaurant",
     tech: "HTML • CSS • JavaScript",
     link: "https://josephyedidya.github.io/Restauration-Website/",
-    image: "/placeholder.svg",
+    image: `${import.meta.env.PROD ? '/Joseph-yedidya-Portfolio' : ''}/Images/Restauration.png`,
   },
   {
     title: "Plateforme de Vente de Bijoux",
     tech: "HTML • CSS • JavaScript",
     link: "#",
-    image: "/placeholder.svg",
+    image: `${import.meta.env.PROD ? '/Joseph-yedidya-Portfolio' : ''}/Images/Bijoux.png`,
   },
 ];
 
@@ -186,12 +197,24 @@ export const githubRepos = [
 ];
 
 export const learningLanguages = [
-  { name: "Python", progress: 15, color: "#3776AB", status: "En cours d'apprentissage" },
-  { name: "Java", progress: 10, color: "#007396", status: "En cours d'apprentissage" },
-  { name: "PostgreSQL", progress: 20, color: "#4479A1", status: "En cours d'apprentissage" },
-  { name: "Docker", progress: 5, color: "#2496ED", status: "En cours d'apprentissage" },
-  { name: "React Native", progress: 0, color: "#61DAFB", status: "À découvrir bientôt" },
-  { name: "AWS", progress: 5, color: "#FF9900", status: "Cloud computing" },
+  { name: "HTML", progress: 95, color: "#E34F26", status: "Maîtrisé", icon: SiHtml5 },
+  { name: "CSS", progress: 90, color: "#1572B6", status: "Maîtrisé", icon: SiCss3 },
+  { name: "JavaScript", progress: 80, color: "#F7DF1E", status: "Avancé", icon: SiJavascript },
+  { name: "TypeScript", progress: 60, color: "#3178C6", status: "En cours d'apprentissage", icon: SiTypescript },
+  { name: "React", progress: 75, color: "#61DAFB", status: "Avancé", icon: SiReact },
+  { name: "Node.js", progress: 70, color: "#339933", status: "Avancé", icon: SiNodedotjs },
+  { name: "Express", progress: 65, color: "#000000", status: "En cours d'apprentissage", icon: Server },
+  { name: "MongoDB", progress: 50, color: "#47A248", status: "En cours d'apprentissage", icon: Database },
+  { name: "PostgreSQL", progress: 40, color: "#4479A1", status: "En cours d'apprentissage", icon: Database },
+  { name: "Git", progress: 85, color: "#F05032", status: "Maîtrisé", icon: GitBranch },
+  { name: "Docker", progress: 30, color: "#2496ED", status: "En cours d'apprentissage", icon: Container },
+  { name: "AWS", progress: 20, color: "#FF9900", status: "À découvrir", icon: Cloud },
+  { name: "GraphQL", progress: 25, color: "#E10098", status: "À découvrir", icon: Network },
+  { name: "Next.js", progress: 40, color: "#000000", status: "En cours d'apprentissage", icon: SiNextdotjs },
+  { name: "Tailwind CSS", progress: 80, color: "#06B6D4", status: "Avancé", icon: Palette },
+  { name: "Python", progress: 35, color: "#3776AB", status: "En cours d'apprentissage", icon: SiPython },
+  { name: "Java", progress: 20, color: "#007396", status: "À découvrir", icon: SiOpenjdk },
+  { name: "React Native", progress: 15, color: "#61DAFB", status: "À découvrir bientôt", icon: Atom },
 ];
 
 export const testimonials = [
